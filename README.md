@@ -27,6 +27,8 @@ Execute script
 
 * sudo ./bitclout-node.sh
 
-Once complete, start up the node.
+Once installation has completed, reboot the droplet.
+
+# Starting node
 
 * sudo ./run-main/run.sh
