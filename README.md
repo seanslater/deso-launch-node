@@ -2,7 +2,7 @@
 
 Quick and dirty installation script to start a new BitClout node using a Digital Ocean Ubuntu droplet - feedback, improvements, comments welcome.
 
-Copy/paste the following commands to download the script, allow it to execute, then run it. The script will install Docker and download the BitClout installation packages. There are a couple of large download confirmations that require user input - accept/yes to download and continue.
+Copy/paste the following commands to download the script, allow it to execute, then run it. The script will install Docker and download the BitClout installation packages.
 
 The Nano text editor will open to edit dev.env - you can add your BitClout public key to ADMIN_PUBLIC_KEYS to lock admin access to your account and hide it from visitors to the node (or just leave it blank allowing open admin viewing access), Ctrl-X to close Nano and save/exit).
 
