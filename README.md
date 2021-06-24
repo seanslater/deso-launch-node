@@ -14,21 +14,10 @@ Once rebooted, just start the node. You will see nginx, backend and frontend bei
 
 # Usage
 
-Download installation script
-
-* sudo wget https://raw.githubusercontent.com/seanslater/bitclout-launch-node/main/bitclout-node.sh
-
-Change permissions to allow script to execute
-
-* sudo chmod 777 ./bitclout-node.sh
-
-Execute script
-
-* sudo ./bitclout-node.sh
-
-Once installation has completed, reboot the droplet.
-
-* sudo reboot
+sudo wget https://raw.githubusercontent.com/seanslater/bitclout-launch-node/main/bitclout-node.sh
+sudo chmod 777 ./bitclout-node.sh
+sudo ./bitclout-node.sh
+sudo reboot
 
 # Starting node
 
