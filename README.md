@@ -17,7 +17,7 @@ Once installation has completed the new node will launch and you will see nginx,
 
 Download installation script
 
-* sudo wget https://github.com/seanslater/bitclout-launch-node/archive/refs/heads/main.zip
+* sudo wget https://raw.githubusercontent.com/seanslater/bitclout-launch-node/main/bitclout-node.sh
 
 Change permissions to allow script to execute
 
