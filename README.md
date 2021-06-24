@@ -15,8 +15,11 @@ Once rebooted, just start the node. You will see nginx, backend and frontend bei
 # Usage
 
 sudo wget https://raw.githubusercontent.com/seanslater/bitclout-launch-node/main/bitclout-node.sh
+
 sudo chmod 777 ./bitclout-node.sh
+
 sudo ./bitclout-node.sh
+
 sudo reboot
 
 # Starting node
