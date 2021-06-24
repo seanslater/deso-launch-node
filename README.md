@@ -1,7 +1,5 @@
 # bitclout-launch-node
-Launch a new BitClout node using Digital Ocean
-
-BitClout node launching on Digital Ocean / Ubuntu droplet
+Launch a new BitClout node using Digital Ocean Ubuntu droplet
 
 Quick and dirty installation script - feedback, improvements, comments welcome.
 
