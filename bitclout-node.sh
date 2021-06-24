@@ -41,6 +41,10 @@ sudo cp docker-compose.dev.yml docker-compose.yml
 
 sudo nano dev.env
 
+sudo echo "DefaultLimitNOFILE=524288" >> /etc/systemd/system.conf
+
 sudo apt-get upgrade
 
 sudo apt-get update
+
+echo "Installation Complete. Reboot your droplet."
