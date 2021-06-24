@@ -55,4 +55,4 @@ sudo apt-get -y upgrade
 
 sudo apt-get -y update
 
-echo "Installation Complete. Reboot your droplet."
+echo "Installation Complete. Reboot your server."
