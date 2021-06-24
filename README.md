@@ -28,6 +28,8 @@ Execute script
 
 Once installation has completed, reboot the droplet.
 
+* sudo reboot
+
 # Starting node
 
 * sudo ./run-main/run.sh
