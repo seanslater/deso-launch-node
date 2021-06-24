@@ -21,7 +21,3 @@ sudo chmod 777 ./bitclout-node.sh
 sudo ./bitclout-node.sh
 
 sudo reboot
-
-# Starting node
-
-* sudo ./run-main/run.sh
