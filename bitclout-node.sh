@@ -43,6 +43,14 @@ sudo nano dev.env
 
 sudo echo "DefaultLimitNOFILE=524288" >> /etc/systemd/system.conf
 
+sudo echo "[Unit]" >> /etc/systemd/system/cloutnode.service
+sudo echo "Start BitClout Node" >> /etc/systemd/system/cloutnode.service
+sudo echo "[Service]" >> /etc/systemd/system/cloutnode.service
+sudo echo "ExecStart=/root/run-main/run.sh" >> /etc/systemd/system/cloutnode.service
+sudo echo "[Install]" >> /etc/systemd/system/cloutnode.service
+sudo echo "WantedBy=multi-user.target" >> /etc/systemd/system/cloutnode.service
+sudo systemctl enable cloutnode
+
 sudo apt-get -y upgrade
 
 sudo apt-get -y update
