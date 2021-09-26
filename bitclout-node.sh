@@ -31,7 +31,7 @@ docker-compose --version
 
 sudo apt-get -y install unzip
 
-wget https://github.com/desoprotocol/run/archive/refs/heads/main.zip
+wget https://github.com/deso-protocol/run/archive/refs/heads/main.zip
 
 unzip main.zip
 
